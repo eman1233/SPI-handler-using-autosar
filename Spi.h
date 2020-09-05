@@ -170,7 +170,7 @@ typedef struct{
 	uint8_t SpiMaxLength;
 	Spi_BufferDescriptorType *pcBufferDescriptor;
 }Spi_ConfigType;
-extern Spi_ConfigType *Spi_Config;
+ Spi_ConfigType *Spi_Config;
 typedef struct{
 	//SPI Channel ID, used as parameter in SPI API functions
 	uint8_t SpiChannelId;
@@ -191,7 +191,7 @@ typedef struct{
 	//This parameter defines the first starting bit for transmission.
 	SpiTransferStart *Start; 
 }SpiChannel;
-extern SpiChannel *Channeltype;
+ SpiChannel *Channeltype;
 typedef struct{
 	int SpiBaudrate;
 	char SpiCsIdentifier;
@@ -210,7 +210,7 @@ typedef struct{
 	int SpiJobPriority;
 	SpiExternalDevice SpiDeviceAssignment;
 }SpiJob;
-extern SpiJob *Jobtype;
+ SpiJob *Jobtype;
 typedef struct{
 	//SPI Sequence ID, used as parameter in SPI API functions.
 	uint8_t SpiSequenceId;
